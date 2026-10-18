@@ -1,0 +1,5 @@
+﻿matplotlib==3.11.2
+numpy==2.4.6
+rosbags==0.11.5
+scipy==1.17.1
+torch==2.13.0+cu126
