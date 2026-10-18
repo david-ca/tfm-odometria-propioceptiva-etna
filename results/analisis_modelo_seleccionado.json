@@ -1,0 +1,29 @@
+{
+  "n_semillas": 5,
+  "n_ventanas": 1697,
+  "vertical": {
+    "pearson_media": 0.8141846035115726,
+    "pearson_sd": 0.002210669763911959,
+    "r2_media": 0.6588231325149536,
+    "r2_sd": 0.005410456098616123
+  },
+  "lateral": {
+    "pearson_modelo_media": 0.17400618096740178,
+    "pearson_modelo_sd": 0.007460579614532904,
+    "r2_modelo_media": 0.024223506450653076,
+    "r2_modelo_sd": 0.0042303274385631084,
+    "pearson_odometria": -0.05759240034795613,
+    "real_sd_cm": 2.1456820964813232,
+    "real_abs_medio_cm": 1.6783735752105713,
+    "pct_bajo_umbral_ruido": 29.935179728933413,
+    "umbral_ruido_cm": 0.76,
+    "autocorr_lag1_media_ponderada": -0.41401408657581784,
+    "autocorr_lag1_mediana": -0.43158206954036366,
+    "autocorr_n_tramos": 35,
+    "autocorr_min_tramo_s": 10
+  },
+  "avance": {
+    "real_medio_cm": 16.37491798400879,
+    "real_sd_cm": 3.071437358856201
+  }
+}

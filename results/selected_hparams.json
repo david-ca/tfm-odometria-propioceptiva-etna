@@ -1,0 +1,110 @@
+{
+  "gru_imu": {
+    "key": "hidden=64|layers=2|lr=1e-03",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.001,
+      "kernel": 3,
+      "nhead": 4,
+      "hidden": 64,
+      "layers": 2
+    },
+    "val_mae_cm": 1.4258,
+    "val_std_cm": 0.004868949236402665,
+    "n_params": 43139,
+    "best_key": "hidden=64|layers=3|lr=1e-03",
+    "best_val_mae_cm": 1.424166666666667,
+    "threshold_cm": 1.42632279488384
+  },
+  "tcn_imu": {
+    "key": "channels=32|levels=5|lr=1e-03",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.001,
+      "kernel": 3,
+      "nhead": 4,
+      "channels": 32,
+      "levels": 5
+    },
+    "val_mae_cm": 1.5497666666666667,
+    "val_std_cm": 0.012893495345414422,
+    "n_params": 31075,
+    "best_key": "channels=32|levels=5|lr=1e-03",
+    "best_val_mae_cm": 1.5497666666666667,
+    "threshold_cm": 1.5626601620120812
+  },
+  "transformer_imu": {
+    "key": "d_model=32|layers=3|lr=1e-03",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.001,
+      "kernel": 3,
+      "nhead": 4,
+      "d_model": 32,
+      "layers": 3
+    },
+    "val_mae_cm": 1.5639666666666667,
+    "val_std_cm": 0.02475403446354187,
+    "n_params": 28163,
+    "best_key": "d_model=32|layers=3|lr=1e-03",
+    "best_val_mae_cm": 1.5639666666666667,
+    "threshold_cm": 1.5887207011302087
+  },
+  "gru_imuwheel": {
+    "key": "hidden=64|layers=3|lr=3e-04",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.0003,
+      "kernel": 3,
+      "nhead": 4,
+      "hidden": 64,
+      "layers": 3
+    },
+    "val_mae_cm": 1.2613999999999999,
+    "val_std_cm": 0.0009201449161228206,
+    "n_params": 68867,
+    "best_key": "hidden=64|layers=3|lr=3e-04",
+    "best_val_mae_cm": 1.2613999999999999,
+    "threshold_cm": 1.2623201449161228
+  },
+  "tcn_imuwheel": {
+    "key": "channels=32|levels=5|lr=1e-03",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.001,
+      "kernel": 3,
+      "nhead": 4,
+      "channels": 32,
+      "levels": 5
+    },
+    "val_mae_cm": 1.3350333333333335,
+    "val_std_cm": 0.010261362266071439,
+    "n_params": 31587,
+    "best_key": "channels=32|levels=5|lr=1e-03",
+    "best_val_mae_cm": 1.3350333333333335,
+    "threshold_cm": 1.345294695599405
+  },
+  "transformer_imuwheel": {
+    "key": "d_model=32|layers=3|lr=1e-03",
+    "hp": {
+      "dropout": 0.2,
+      "batch": 128,
+      "lr": 0.001,
+      "kernel": 3,
+      "nhead": 4,
+      "d_model": 32,
+      "layers": 3
+    },
+    "val_mae_cm": 1.2854,
+    "val_std_cm": 0.00347658836600864,
+    "n_params": 28291,
+    "best_key": "d_model=64|layers=2|lr=1e-03",
+    "best_val_mae_cm": 1.2705666666666666,
+    "threshold_cm": 1.291101893852056
+  }
+}

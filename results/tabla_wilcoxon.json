@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 0,
+    "mae_model_cm": 1.5731523036956787,
+    "mae_base_cm": 2.2971560955047607,
+    "pct_windows_model_better": 70.06482027106658,
+    "wilcoxon_stat": 366859.5,
+    "wilcoxon_p": 0.0
+  },
+  {
+    "seed": 1,
+    "mae_model_cm": 1.5905834436416626,
+    "mae_base_cm": 2.2971560955047607,
+    "pct_windows_model_better": 68.1791396582204,
+    "wilcoxon_stat": 395506.0,
+    "wilcoxon_p": 0.0
+  },
+  {
+    "seed": 2,
+    "mae_model_cm": 1.6016966104507446,
+    "mae_base_cm": 2.2971560955047607,
+    "pct_windows_model_better": 68.76841484973482,
+    "wilcoxon_stat": 386098.5,
+    "wilcoxon_p": 0.0
+  },
+  {
+    "seed": 3,
+    "mae_model_cm": 1.6039543151855469,
+    "mae_base_cm": 2.2971560955047607,
+    "pct_windows_model_better": 67.47200942840307,
+    "wilcoxon_stat": 398313.0,
+    "wilcoxon_p": 0.0
+  },
+  {
+    "seed": 4,
+    "mae_model_cm": 1.5789527893066406,
+    "mae_base_cm": 2.2971560955047607,
+    "pct_windows_model_better": 68.82734236888626,
+    "wilcoxon_stat": 380328.0,
+    "wilcoxon_p": 0.0
+  }
+]

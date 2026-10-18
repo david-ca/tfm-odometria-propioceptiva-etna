@@ -1,0 +1,137 @@
+{
+  "min_len_s": 30,
+  "n_tramos": 19,
+  "segundos": 1304,
+  "convenio_rumbo_ideal": "prev",
+  "k": 1.1038976581618916,
+  "resultados": {
+    "ideal|ruedas": {
+      "deriva_final_pct_mediana": 8.324435413724943,
+      "deriva_final_pct_media": 8.460751570023097,
+      "rmse_m_mediana": 0.3803589011050845,
+      "rmse_global_m": 1.1326667363375404
+    },
+    "ideal|ruedas_cal": {
+      "deriva_final_pct_mediana": 1.5829079646350102,
+      "deriva_final_pct_media": 2.0852688184676027,
+      "rmse_m_mediana": 0.11131505833496504,
+      "rmse_global_m": 0.22983391252268093
+    },
+    "ideal|modelo_s0": {
+      "deriva_final_pct_mediana": 1.0298884203829628,
+      "deriva_final_pct_media": 1.3003386043967682,
+      "rmse_m_mediana": 0.06060059205980988,
+      "rmse_global_m": 0.16047581920519727
+    },
+    "ideal|modelo_s1": {
+      "deriva_final_pct_mediana": 1.7138153721986447,
+      "deriva_final_pct_media": 1.843068477913354,
+      "rmse_m_mediana": 0.08498075006064522,
+      "rmse_global_m": 0.20172111889131789
+    },
+    "ideal|modelo_s2": {
+      "deriva_final_pct_mediana": 1.5868160660188424,
+      "deriva_final_pct_media": 1.7323532591021344,
+      "rmse_m_mediana": 0.07216309750741852,
+      "rmse_global_m": 0.22290755274965127
+    },
+    "ideal|modelo_s3": {
+      "deriva_final_pct_mediana": 1.5284860984427997,
+      "deriva_final_pct_media": 1.6616990579426452,
+      "rmse_m_mediana": 0.07732646176647394,
+      "rmse_global_m": 0.1985671653791198
+    },
+    "ideal|modelo_s4": {
+      "deriva_final_pct_mediana": 1.140719632615151,
+      "deriva_final_pct_media": 1.4855551471666588,
+      "rmse_m_mediana": 0.07224899334827359,
+      "rmse_global_m": 0.18632928236857296
+    },
+    "imu|ruedas": {
+      "deriva_final_pct_mediana": 10.787499153043202,
+      "deriva_final_pct_media": 12.512358183318653,
+      "rmse_m_mediana": 0.47892726487615467,
+      "rmse_global_m": 3.527237673071307
+    },
+    "imu|ruedas_cal": {
+      "deriva_final_pct_mediana": 7.900413172402719,
+      "deriva_final_pct_media": 9.544520138901026,
+      "rmse_m_mediana": 0.3250330464790312,
+      "rmse_global_m": 3.548861672100768
+    },
+    "imu|modelo_s0": {
+      "deriva_final_pct_mediana": 7.768265012406054,
+      "deriva_final_pct_media": 9.26734542815159,
+      "rmse_m_mediana": 0.31764820294112567,
+      "rmse_global_m": 3.5108981713636984
+    },
+    "imu|modelo_s1": {
+      "deriva_final_pct_mediana": 7.003496473432545,
+      "deriva_final_pct_media": 9.278498340704534,
+      "rmse_m_mediana": 0.3025693513917136,
+      "rmse_global_m": 3.503059023384724
+    },
+    "imu|modelo_s2": {
+      "deriva_final_pct_mediana": 6.8722118768797245,
+      "deriva_final_pct_media": 9.041812618347294,
+      "rmse_m_mediana": 0.29378972829203,
+      "rmse_global_m": 3.3942300402646293
+    },
+    "imu|modelo_s3": {
+      "deriva_final_pct_mediana": 7.44064900252444,
+      "deriva_final_pct_media": 9.201345139774944,
+      "rmse_m_mediana": 0.3182147741824099,
+      "rmse_global_m": 3.4758943994684492
+    },
+    "imu|modelo_s4": {
+      "deriva_final_pct_mediana": 6.527884042327389,
+      "deriva_final_pct_media": 9.223996126966078,
+      "rmse_m_mediana": 0.2915193122522031,
+      "rmse_global_m": 3.505107034872947
+    }
+  },
+  "resumen": {
+    "ideal|ruedas": {
+      "deriva_final_pct_mediana": 8.324435413724943,
+      "deriva_final_pct_media": 8.460751570023097,
+      "rmse_m_mediana": 0.3803589011050845,
+      "rmse_global_m": 1.1326667363375404,
+      "rmse_global_sd_m": 0.0
+    },
+    "ideal|ruedas_cal": {
+      "deriva_final_pct_mediana": 1.5829079646350102,
+      "deriva_final_pct_media": 2.0852688184676027,
+      "rmse_m_mediana": 0.11131505833496504,
+      "rmse_global_m": 0.22983391252268093,
+      "rmse_global_sd_m": 0.0
+    },
+    "ideal|modelo": {
+      "deriva_final_pct_mediana": 1.3999451179316802,
+      "deriva_final_pct_media": 1.6046029093043122,
+      "rmse_m_mediana": 0.07346397894852423,
+      "rmse_global_m": 0.19400018771877184,
+      "rmse_global_sd_m": 0.020488200942374035
+    },
+    "imu|ruedas": {
+      "deriva_final_pct_mediana": 10.787499153043202,
+      "deriva_final_pct_media": 12.512358183318653,
+      "rmse_m_mediana": 0.47892726487615467,
+      "rmse_global_m": 3.527237673071307,
+      "rmse_global_sd_m": 0.0
+    },
+    "imu|ruedas_cal": {
+      "deriva_final_pct_mediana": 7.900413172402719,
+      "deriva_final_pct_media": 9.544520138901026,
+      "rmse_m_mediana": 0.3250330464790312,
+      "rmse_global_m": 3.548861672100768,
+      "rmse_global_sd_m": 0.0
+    },
+    "imu|modelo": {
+      "deriva_final_pct_mediana": 7.1225012815140305,
+      "deriva_final_pct_media": 9.202599530788888,
+      "rmse_m_mediana": 0.3047482738118964,
+      "rmse_global_m": 3.47783773387089,
+      "rmse_global_sd_m": 0.04351262742665716
+    }
+  }
+}

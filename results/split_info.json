@@ -1,0 +1,50 @@
+{
+  "imu": {
+    "n_windows": {
+      "train": 11902,
+      "val": 2650,
+      "test": 1726
+    },
+    "n_segments": {
+      "train": 20,
+      "val": 29,
+      "test": 29
+    },
+    "duration_s": {
+      "train": 6235.0,
+      "val": 1484.0,
+      "test": 1808.0
+    },
+    "duration_pct": {
+      "train": 65.44557573212974,
+      "val": 15.576781778104335,
+      "test": 18.977642489765927
+    },
+    "train_from_A_s": 2807.0,
+    "val_from_A_s": 339.5
+  },
+  "imuwheel": {
+    "n_windows": {
+      "train": 11855,
+      "val": 2635,
+      "test": 1697
+    },
+    "n_segments": {
+      "train": 20,
+      "val": 29,
+      "test": 29
+    },
+    "duration_s": {
+      "train": 6228.5,
+      "val": 1482.0,
+      "test": 1803.0
+    },
+    "duration_pct": {
+      "train": 65.47012140642245,
+      "val": 15.577863036737268,
+      "test": 18.95201555684028
+    },
+    "train_from_A_s": 2807.0,
+    "val_from_A_s": 339.0
+  }
+}
